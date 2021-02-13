@@ -1,0 +1,70 @@
+  
+body{
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+ul{
+    display: inline-block;
+    clear: right;
+    text-align: right;
+    float: right;
+}
+li{
+    display: inline;
+}
+.logo-container{
+    float: left;
+}
+.logo-container, .logo-container >span{
+   display: inline-block;
+   text-align: left;
+}
+.logo-container img{
+    margin-right: 10px;
+}
+span{
+    text-align: left;
+}
+article img{
+    width: 100%;
+}
+span h2,p{
+    margin: 0;
+}
+span h2{
+   font-size: 40px;
+}
+h1{
+    text-align: left;
+}
+hr{
+    clear: both;
+    border-style: groove;
+    height: 5px;
+    background-color: grey;
+}
+.parent{
+    background-image: url(../img/list-bg.png);
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    position:relative;
+    left: 25%;
+    
+}
+.left-side{
+    width: 200px;
+}
+.right-side{
+    width: 250px;
+}
+button{
+    background-color: orangered;
+    color: wheat;
+    text-decoration:none;
+    float: right;
+    
+}
