@@ -1,6 +1,7 @@
   
 body{
     text-align: center;
+    font-family: "Sofia", sans-serif;
 }
 ul{
     display: inline-block;
@@ -36,23 +37,34 @@ span h2{
 h1{
     text-align: left;
 }
-a{
-
-}
 hr{
     clear: both;
     border-style: groove;
     height: 5px;
     background-color: grey;
 }
+.parent{
+    background-image: url(../img/list-bg.png);
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    position:relative;
+    left: 25%;
+    
+}
 .left-side{
-    text-align: left;
+    width: 200px;
 }
 .right-side{
-    text-align: right;
+    width: 250px;
 }
 button{
     background-color: orangered;
     color: wheat;
     text-decoration:none;
+    float: right;
+    
 }
