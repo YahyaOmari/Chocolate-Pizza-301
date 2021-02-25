@@ -53,16 +53,22 @@ hr{
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    width: 50%;
+    width: 100%;
     position:relative;
-    left: 25%;
+    /* left: 25%; */
     
 }
 .left-side{
+    position: relative;
+    right: 50px;
     width: 200px;
+    text-align: left;
 }
 .right-side{
+    position: relative;
+    left: 50px;
     width: 250px;
+    text-align: left;
 }
 h2 {
     padding-left: 100px;
